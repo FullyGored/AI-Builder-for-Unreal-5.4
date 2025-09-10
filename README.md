@@ -99,7 +99,10 @@ Create custom behavior tree tasks that interface with the state machine and sens
 
 This system provides a solid foundation for complex AI behaviors while maintaining performance and extensibility.
 
+## Project Structure
+The `AIBuilder` module contains the core C++ logic for AI-driven gameplay in the project. Below is the folder structure:
 
+```
 YourProject/
 └── Source/
     └── AIBuilder/
