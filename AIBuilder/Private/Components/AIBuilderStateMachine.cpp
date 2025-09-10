@@ -301,4 +301,4 @@ bool UAIBuilderStateMachine::IsInAttackRange() const
     }
     
     return GetDistanceToTarget() <= OwnerCharacter->AttackRange;
-}
+}s
