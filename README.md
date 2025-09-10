@@ -98,3 +98,25 @@ Create custom behavior tree tasks that interface with the state machine and sens
 - AI and Navigation modules enabled
 
 This system provides a solid foundation for complex AI behaviors while maintaining performance and extensibility.
+
+
+YourProject/
+└── Source/
+    └── AIBuilder/
+        ├── AIBuilder.Build.cs
+        ├── Public/
+        │   ├── AIBuilder.h
+        │   ├── AIBuilderController.h
+        │   └── Core/
+        │   │   └── AIBuilderCharacter.h
+        │   └── Components/
+        │       ├── AIBuilderStateMachine.h
+        │       └── AIBuilderSensorComponent.h
+        └── Private/
+            ├── AIBuilder.cpp
+            ├── AIBuilderController.cpp
+            └── Core/
+            │   └── AIBuilderCharacter.cpp
+            └── Components/
+                ├── AIBuilderStateMachine.cpp
+                └── AIBuilderSensorComponent.cpp
